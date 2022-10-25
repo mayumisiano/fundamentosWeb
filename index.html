@@ -5,32 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu perfil</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/buttom.css">
+
 </head>
-<body>     
-
-    <h1>Sobre a Mayu 👩🏻‍💻</h1>
-
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam obcaecati exercitationem quas nam voluptatum autem consequatur esse voluptates unde? Sint vel quod repudiandae ipsa tenetur maiores ea aliquid quisquam explicabo.
-    </p>    
-
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="contato.html">Contato</a></li>
-    </ul>
-
-    <img src="assets/img/Pikachu.gif" alt="Foto Sonic">
+<body>        
     
-    <h2>Meu vídeo predileto:</h2>
+    <h1 class="center">Bem vinde!</h1>   
+    
+    <ul id="menu">
+        <li><a href="index.html" class="homeButton">Home</a></li>
+        <li><a href="./contato.html" class="contactButton">Contato</a></li>
+    </ul> 
+
+    <h2 class="center">Sobre a Mayumi 👩🏻‍💻</h2>
+    <div class="paragrafos">
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam obcaecati exercitationem quas nam voluptatum autem consequatur esse voluptates unde? Sint vel quod repudiandae ipsa tenetur maiores ea aliquid quisquam explicabo.
+            </p>    
+    
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi inventore odio, repudiandae, tenetur eos amet perferendis quae quaerat rem voluptatum optio facilis labore nostrum. Ipsum, mollitia asperiores? Pariatur, quaerat tempora.
+            </p>
+        </div>    
+            
+        <div>
+            <img id="pikachu" src="assets/img/Pikachu.gif" alt="Foto Pikachu">  
+        </div>        
+    </div>    
+    
+    <h2 class="center">Minha playlist chill favorita:</h2>
 
     <iframe 
-    width="560"
-    height="315"
-    src="https://www.youtube.com/watch?v=iKnG_lrtH20"
+    id="video"
+    src="https://www.youtube.com/embed/yEPUhesWICA"
     frameborder="0"
     allow="accelerometer; autoplay;encrypted-media;gyroscope;picture-in-picture"
     allowfullscreen
     ></iframe>
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://github.com/mayumisiano" target="_blank">
+                <img class="redesocial" src="./assets/img/github.png" alt="Logo do Github">
+            </a>
+            
+            <a href="https://www.instagram.com/psmayumi/" target="_blank">
+                <img class="redesocial" src="./assets/img/instagram.png" alt="Logo do Instagram">
+            </a>
+            
+            <a href="https://www.linkedin.com/in/paulamsiano/" target="_blank">
+                <img class= "redesocial" src="./assets/img/linkedin.png" alt="Logo do Linkedin">
+            </a>
+            
+        </div>
+        <p class="center">
+            Todos os direitos reservados para Mayumi &copy;
+        </p>
+    </footer>
 
 </body>
 </html>
