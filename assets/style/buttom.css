@@ -1,0 +1,95 @@
+/*Botões da Home*/
+.homeButton {
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:14px;	
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:8px 14px;
+	text-decoration:none;
+}
+.homeButton:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+.homeButton:active {
+	position:relative;
+	top:1px;
+}
+
+/*Botões do Contato*/
+.contactButton {
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:14px;	
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:8px 14px;
+	text-decoration:none;
+}
+.contactButton:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+}
+.contactButton:active {
+	position:relative;
+	top:1px;
+}
+        
+/*Estilização do Botão do Formulário*/
+
+.formButton {
+	background:linear-gradient(to bottom, #000e24 5%, #415989 100%);
+	background-color:#000e24;
+	border-radius:17px;
+	border:1px solid #1f2f47;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	padding:7px 13px;
+	text-decoration:none;
+}
+.formButton:hover {
+	background:linear-gradient(to bottom, #415989 5%, #000e24 100%);
+	background-color:#415989;
+}
+.formButton:active {
+	position:relative;
+	top:1px;
+}
+
+/*Estilização do botão para a página de Games*/
+.gamesButton {
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:42px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:8px 14px;
+	text-decoration:none;
+}
+.gamesButton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.gamesButton:active {
+	position:relative;
+	top:1p;
+}
+
+        
